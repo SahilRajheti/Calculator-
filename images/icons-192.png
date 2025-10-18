@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Icon 192x192</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 40px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        .icon-container {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .icon-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .download-info {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #666;
+            max-width: 400px;
+            line-height: 1.5;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            border-left: 4px solid #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <div class="icon-container">
+        <div class="icon-title">Calculator App Icon - 192x192px</div>
+        
+        <svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+            <!-- Background with rounded corners -->
+            <rect width="192" height="192" rx="36" fill="url(#mainGradient)"/>
+            
+            <!-- Calculator body shadow -->
+            <rect x="32" y="38" width="130" height="118" rx="16" fill="rgba(0,0,0,0.15)"/>
+            
+            <!-- Calculator body -->
+            <rect x="30" y="36" width="130" height="118" rx="16" fill="white"/>
+            
+            <!-- Display screen -->
+            <rect x="42" y="48" width="106" height="28" rx="8" fill="#1a1a1a"/>
+            
+            <!-- Display text -->
+            <text x="136" y="68" font-family="Arial, sans-serif" font-size="18" fill="#00ff88" text-anchor="end" font-weight="bold">123.45</text>
+            
+            <!-- Button grid -->
+            <g>
+                <!-- Row 1 -->
+                <rect x="45" y="88" width="20" height="16" rx="4" fill="#ff6b6b"/>
+                <rect x="72" y="88" width="20" height="16" rx="4" fill="#4ecdc4"/>
+                <rect x="99" y="88" width="20" height="16" rx="4" fill="#45b7d1"/>
+                <rect x="126" y="88" width="20" height="16" rx="4" fill="#ffa726"/>
+                
+                <!-- Row 2 -->
+                <rect x="45" y="110" width="20" height="16" rx="4" fill="#e0e0e0"/>
+                <rect x="72" y="110" width="20" height="16" rx="4" fill="#e0e0e0"/>
+                <rect x="99" y="110" width="20" height="16" rx="4" fill="#e0e0e0"/>
+                <rect x="126" y="110" width="20" height="16" rx="4" fill="#ffa726"/>
+                
+                <!-- Row 3 -->
+                <rect x="45" y="132" width="20" height="16" rx="4" fill="#e0e0e0"/>
+                <rect x="72" y="132" width="20" height="16" rx="4" fill="#e0e0e0"/>
+                <rect x="99" y="132" width="20" height="16" rx="4" fill="#e0e0e0"/>
+                <rect x="126" y="132" width="20" height="16" rx="4" fill="#66bb6a"/>
+            </g>
+            
+            <!-- Button labels -->
+            <g fill="white" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold">
+                <!-- Row 1 -->
+                <text x="55" y="99">C</text>
+                <text x="82" y="99">÷</text>
+                <text x="109" y="99">×</text>
+                <text x="136" y="99">⌫</text>
+                
+                <!-- Row 2 -->
+                <text x="55" y="121" fill="#333">7</text>
+                <text x="82" y="121" fill="#333">8</text>
+                <text x="109" y="121" fill="#333">9</text>
+                <text x="136" y="121">-</text>
+                
+                <!-- Row 3 -->
+                <text x="55" y="143" fill="#333">4</text>
+                <text x="82" y="143" fill="#333">5</text>
+                <text x="109" y="143" fill="#333">6</text>
+                <text x="136" y="143">+</text>
+            </g>
+            
+            <!-- Bottom row (wider buttons) -->
+            <rect x="45" y="154" width="47" height="16" rx="4" fill="#e0e0e0"/>
+            <rect x="99" y="154" width="20" height="16" rx="4" fill="#e0e0e0"/>
+            <rect x="126" y="154" width="20" height="16" rx="4" fill="#4caf50"/>
+            
+            <!-- Bottom row labels -->
+            <text x="68.5" y="165" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#333">0</text>
+            <text x="109" y="165" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="#333">.</text>
+            <text x="136" y="165" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-weight="bold" fill="white">=</text>
+            
+            <defs>
+                <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#667eea"/>
+                    <stop offset="50%" style="stop-color:#764ba2"/>
+                    <stop offset="100%" style="stop-color:#f093fb"/>
+                </linearGradient>
+            </defs>
+        </svg>
+        
+        <div class="download-info">
+            This is your 192x192 pixel calculator icon! 
+            <div class="highlight">
+                <strong>To get your PNG file:</strong><br>
+                1. Right-click the icon above and select "Save image as..."<br>
+                2. Save it as "icon-192.svg"<br>
+                3. Use any online SVG to PNG converter (like convertio.co or cloudconvert.com)<br>
+                4. Upload your SVG and convert to PNG at 192x192 resolution
+            </div>
+        </div>
+    </div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9909fed5c114abaa',t:'MTc2MDgxMTA1Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
