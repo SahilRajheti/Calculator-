@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Icon 192x192</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 40px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        .icon-container {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .icon-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .download-info {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #666;
+            max-width: 400px;
+            line-height: 1.5;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            border-left: 4px solid #ffc107;
+        }
+    </style>
+</head>
+<body>
+    <div class="icon-container">
+        <div class="icon-title">Calculator App Icon - 512x512px</div>
+        
+        <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <!-- Background with rounded corners -->
+            <rect width="512" height="512" rx="96" fill="url(#mainGradient)"/>
+            
+            <!-- Calculator body shadow -->
+            <rect x="86" y="102" width="340" height="310" rx="40" fill="rgba(0,0,0,0.2)"/>
+            
+            <!-- Calculator body -->
+            <rect x="80" y="96" width="340" height="310" rx="40" fill="white"/>
+            
+            <!-- Display screen shadow -->
+            <rect x="112" y="128" width="276" height="72" rx="20" fill="rgba(0,0,0,0.1)"/>
+            
+            <!-- Display screen -->
+            <rect x="110" y="126" width="276" height="72" rx="20" fill="#1a1a1a"/>
+            
+            <!-- Display inner glow -->
+            <rect x="118" y="134" width="260" height="56" rx="16" fill="rgba(0,255,136,0.1)"/>
+            
+            <!-- Display text -->
+            <text x="370" y="175" font-family="Arial, sans-serif" font-size="42" fill="#00ff88" text-anchor="end" font-weight="bold">123.45</text>
+            
+            <!-- Button grid with shadows -->
+            <g>
+                <!-- Button shadows -->
+                <rect x="114" y="232" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                <rect x="182" y="232" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                <rect x="250" y="232" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                <rect x="318" y="232" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                
+                <!-- Row 1 - Function buttons -->
+                <rect x="112" y="230" width="52" height="42" rx="12" fill="url(#redGradient)"/>
+                <rect x="180" y="230" width="52" height="42" rx="12" fill="url(#tealGradient)"/>
+                <rect x="248" y="230" width="52" height="42" rx="12" fill="url(#blueGradient)"/>
+                <rect x="316" y="230" width="52" height="42" rx="12" fill="url(#orangeGradient)"/>
+                
+                <!-- Row 2 shadows -->
+                <rect x="114" y="290" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                <rect x="182" y="290" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                <rect x="250" y="290" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                <rect x="318" y="290" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                
+                <!-- Row 2 - Numbers -->
+                <rect x="112" y="288" width="52" height="42" rx="12" fill="url(#grayGradient)"/>
+                <rect x="180" y="288" width="52" height="42" rx="12" fill="url(#grayGradient)"/>
+                <rect x="248" y="288" width="52" height="42" rx="12" fill="url(#grayGradient)"/>
+                <rect x="316" y="288" width="52" height="42" rx="12" fill="url(#orangeGradient)"/>
+                
+                <!-- Row 3 shadows -->
+                <rect x="114" y="348" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                <rect x="182" y="348" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                <rect x="250" y="348" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                <rect x="318" y="348" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+                
+                <!-- Row 3 - Numbers -->
+                <rect x="112" y="346" width="52" height="42" rx="12" fill="url(#grayGradient)"/>
+                <rect x="180" y="346" width="52" height="42" rx="12" fill="url(#grayGradient)"/>
+                <rect x="248" y="346" width="52" height="42" rx="12" fill="url(#grayGradient)"/>
+                <rect x="316" y="346" width="52" height="42" rx="12" fill="url(#greenGradient)"/>
+            </g>
+            
+            <!-- Button labels -->
+            <g fill="white" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" font-weight="bold">
+                <!-- Row 1 -->
+                <text x="138" y="258">C</text>
+                <text x="206" y="258">÷</text>
+                <text x="274" y="258">×</text>
+                <text x="342" y="258">⌫</text>
+                
+                <!-- Row 2 -->
+                <text x="138" y="316" fill="#333">7</text>
+                <text x="206" y="316" fill="#333">8</text>
+                <text x="274" y="316" fill="#333">9</text>
+                <text x="342" y="316">-</text>
+                
+                <!-- Row 3 -->
+                <text x="138" y="374" fill="#333">4</text>
+                <text x="206" y="374" fill="#333">5</text>
+                <text x="274" y="374" fill="#333">6</text>
+                <text x="342" y="374">+</text>
+            </g>
+            
+            <!-- Bottom row shadows -->
+            <rect x="114" y="406" width="120" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+            <rect x="250" y="406" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+            <rect x="318" y="406" width="52" height="42" rx="12" fill="rgba(0,0,0,0.1)"/>
+            
+            <!-- Bottom row buttons -->
+            <rect x="112" y="404" width="120" height="42" rx="12" fill="url(#grayGradient)"/>
+            <rect x="248" y="404" width="52" height="42" rx="12" fill="url(#grayGradient)"/>
+            <rect x="316" y="404" width="52" height="42" rx="12" fill="url(#greenGradient)"/>
+            
+            <!-- Bottom row labels -->
+            <text x="172" y="432" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" font-weight="bold" fill="#333">0</text>
+            <text x="274" y="432" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" font-weight="bold" fill="#333">.</text>
+            <text x="342" y="432" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" font-weight="bold" fill="white">=</text>
+            
+            <defs>
+                <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#667eea"/>
+                    <stop offset="50%" style="stop-color:#764ba2"/>
+                    <stop offset="100%" style="stop-color:#f093fb"/>
+                </linearGradient>
+                
+                <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#ff6b6b"/>
+                    <stop offset="100%" style="stop-color:#ee5a52"/>
+                </linearGradient>
+                
+                <linearGradient id="tealGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#4ecdc4"/>
+                    <stop offset="100%" style="stop-color:#44a08d"/>
+                </linearGradient>
+                
+                <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#45b7d1"/>
+                    <stop offset="100%" style="stop-color:#3498db"/>
+                </linearGradient>
+                
+                <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#ffa726"/>
+                    <stop offset="100%" style="stop-color:#ff9800"/>
+                </linearGradient>
+                
+                <linearGradient id="grayGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#f5f5f5"/>
+                    <stop offset="100%" style="stop-color:#e0e0e0"/>
+                </linearGradient>
+                
+                <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#66bb6a"/>
+                    <stop offset="100%" style="stop-color:#4caf50"/>
+                </linearGradient>
+            </defs>
+        </svg>
+        
+        <div class="download-info">
+            This is your 512x512 pixel calculator icon with enhanced details and shadows! 
+            <div class="highlight">
+                <strong>To get your PNG file:</strong><br>
+                1. Right-click the icon above and select "Save image as..."<br>
+                2. Save it as "icon-512.svg"<br>
+                3. Use any online SVG to PNG converter (like convertio.co or cloudconvert.com)<br>
+                4. Upload your SVG and convert to PNG at 512x512 resolution
+            </div>
+        </div>
+    </div>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'990a0532c2af3390',t:'MTc2MDgxMTMxOC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
